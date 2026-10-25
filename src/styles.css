@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "@fontsource/outfit/latin-500.css";
+@import "@fontsource/outfit/latin-700.css";
+
+@theme {
+  --color-bg: #070908;
+  --color-surface: #121714;
+  --color-surface-2: #1b221d;
+  --color-fg: #e7f2ea;
+  --color-muted: #8d9b92;
+  --color-accent: #22c55e;
+  --color-danger: #f07167;
+  --color-line: #24302a;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --radius-lg: 1rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

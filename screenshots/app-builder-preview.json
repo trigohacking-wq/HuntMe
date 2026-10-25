@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hunt Me",
+      "hasCanvas": false,
+      "bodyTextLen": 63,
+      "bodyTextHash": "3bb962b65ae5b9a02f52363ec6cfa901e69b71a10b431dd1359e18938a716703",
+      "bodyTextPrefix": "Hunt Me Runners hide. Hunters get pings. The phone keeps score.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hunt Me",
+      "hasCanvas": false,
+      "bodyTextLen": 63,
+      "bodyTextHash": "3bb962b65ae5b9a02f52363ec6cfa901e69b71a10b431dd1359e18938a716703",
+      "bodyTextPrefix": "Hunt Me Runners hide. Hunters get pings. The phone keeps score.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

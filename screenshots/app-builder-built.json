@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hunt Me",
+      "hasCanvas": false,
+      "bodyTextLen": 207,
+      "bodyTextHash": "e38b1ff6e6f41242b9d25547d2016eef9dcf5c5602f2fb730ce51201d021a209",
+      "bodyTextPrefix": "Hunt Me Runners hide. Hunters get pings. The phone keeps score. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hunt Me",
+      "hasCanvas": false,
+      "bodyTextLen": 207,
+      "bodyTextHash": "e38b1ff6e6f41242b9d25547d2016eef9dcf5c5602f2fb730ce51201d021a209",
+      "bodyTextPrefix": "Hunt Me Runners hide. Hunters get pings. The phone keeps score. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (63 -> 207 chars, hash mismatch)",
+    "mobile: body text changed (63 -> 207 chars, hash mismatch)"
+  ]
+}
